@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+
+font-family: 'Red Hat Display', sans-serif;
+
+*/
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+   
+
+}
+
+.card-top{
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+
+}
+.card-top img{
+    border-radius: 20px 20px 0 0;
+    width: 451px;
+
+    
+}
+
+.card-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 451px;
+    background-color: #fff;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.title h1{
+    margin-top: 30px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.information{
+    /* background-color: red; */
+    padding: 10px 50px 20px 50px;
+}
+
+.information p{
+    text-align: center;
+    gap: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.annual-plan{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(0, 6%, 93%, 0.471);
+}
+
+.annual-plan p{
+    margin-bottom: 20px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.bt-change{
+    margin-left: 50px;
+}
+
+.price{
+
+    color: hsl(224, 23%, 55%);
+}
+
+.item p{ 
+    margin: 0;
+    padding: 0;
+
+}
+
+.item span{
+    color: hsl(224, 23%, 55%);
+}
+
+.bt-change a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn .pay{
+    background-color: hsl(245, 75%, 52%);
+    padding: 12px 80px;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 21px 21px -8px rgba(0,0,0,0.27);
+    -moz-box-shadow: -1px 21px 21px -8px rgba(0,0,0,0.27);
+    box-shadow: -1px 21px 21px -8px rgba(0,0,0,0.27);
+
+}
+
+.btn .pay a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn .cancel{
+    margin-top: 30px;
+}
+
+.btn .cancel a{
+    text-decoration: none;
+    font-weight: 700;
+    color:  hsl(224, 23%, 55%);
+}
